@@ -5,13 +5,12 @@ The app allows users to create, read, update, and delete inventory items organiz
 
 ---
 ## Features
-
 - Create new inventory items
 - Edit existing items
 - Delete inventory items
 - Create and manage categories
 - View all inventory in an organized layout
-- Server-side data storage
+- Admin password required to edit or delete items and categories
 - Responsive user interface
 
 ---
@@ -20,10 +19,17 @@ The app allows users to create, read, update, and delete inventory items organiz
 ### Backend
 - Node.js
 - Express.js
-
+- PostgreSQL
+- `pg`
+- 
 ### Frontend
 - EJS (Embedded JavaScript Templates)
 - Tailwind CSS
+
+---
+
+## Database Schema
+![ERD Diagram](docs/erd.png)
 
 ---
 ## Installation
